@@ -33,3 +33,9 @@ The /full/path/to/python specifies the full path to the Python executable.
 ```bash
 poetry add [name] 
 ```
+
+Once you have installed the requests library, the poetry.lock file will be updated, and to create a requirements.txt file from the poetry.lock file, you can use the following command:
+
+```bash
+poetry export --output requirements.txt
+```
