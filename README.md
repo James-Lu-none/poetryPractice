@@ -30,8 +30,16 @@ The /full/path/to/python specifies the full path to the Python executable.
 
 ## Configure Project Dependencies
 
+add for project dependencies
+
 ```bash
 poetry add [name] 
+```
+
+add for project test dependencies
+
+```bash
+poetry add [name] --group test
 ```
 
 Once you have installed the requests library, the poetry.lock file will be updated, and to create a requirements.txt file from the poetry.lock file, you can use the following command:
