@@ -57,3 +57,11 @@ poetry run pytest -v
 ```
 
 to test perform the test
+
+## build the package
+
+`poetry build`
+
+## publish the package
+
+`poetry publish`
