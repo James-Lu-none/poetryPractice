@@ -47,3 +47,13 @@ Once you have installed the requests library, the poetry.lock file will be updat
 ```bash
 poetry export --output requirements.txt
 ```
+
+## tests with pytest
+
+in this example, `pytest.fixture` and `mock_requests` to create a test for validator, after this, we can do
+
+```bash
+poetry run pytest -v
+```
+
+to test perform the test
